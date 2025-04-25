@@ -70,7 +70,7 @@ export default function Home({ shoots }) {
       <div className="relative w-full h-screen flex flex-col items-center justify-center text-white font-playfair">
         <div className="absolute inset-0">
           <Image
-            src="/images/FondoHorizontal1.jpg"
+            src="/images/Fondo.jpg"
             alt="Alejandra Gonzalez"
             fill
             style={{ objectFit: "cover" }}
