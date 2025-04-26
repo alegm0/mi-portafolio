@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { sanityClient } from "@/sanity/client";
 import { useRef } from "react";
+import { useRouter } from "next/router";
 
 export async function getStaticPaths() {
   const query = `*[_type == "shoot"]{ "slug": slug.current }`;
@@ -97,9 +98,7 @@ export default function ShootPage({ shoot }) {
     </div>
   );
 }
-import { useState } from "react";
-import Image from "next/image";
-import { useRouter } from "next/router";
+
 
 export default function Gallery({ shoot }) {
   const [selectedImage, setSelectedImage] = useState(null);
