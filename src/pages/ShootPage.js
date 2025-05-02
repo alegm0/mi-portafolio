@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { sanityClient } from "@/sanity/client";
 import { useRef } from "react";
 import { useRouter } from "next/router";

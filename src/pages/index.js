@@ -81,12 +81,12 @@ export default function Home({ shoots }) {
 
           <div className="relative w-full h-full overflow-hidden md:hidden">
             <Image
-              src="/images/homeBW.jpg"
+              src="/images/home.jpg"
               alt="Alejandra Gonzalez"
               fill
               style={{
-                objectFit: "scale-down",
-                transform: "scale(2.6) translateX(18.5%) translateY(-2%)", // 👈 Mueve la imagen hacia la izquierda
+                objectFit: "cover",
+                
               }}
               priority
             />
