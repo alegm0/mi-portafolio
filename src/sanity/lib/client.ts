@@ -10,6 +10,13 @@ export const client = createClient({
   useCdn: true,
 });
 
+console.log("Sanity Config:", {
+  projectId,
+  dataset,
+  apiVersion
+});
+
+
 // 👉 Función para generar URLs de imagen con soporte hotspot
 // ✅ Agrega esto
 const builder = imageUrlBuilder(client);
