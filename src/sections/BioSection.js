@@ -68,8 +68,9 @@ export default function BioSection() {
           {/* Imagen en la derecha */}
           <div className="relative w-full h-auto">
             <Image
+            loading="lazy"
               src="/images/bio-photo.jpg" // Asegúrate de cambiar esta ruta a tu imagen real
-              alt="Alejandra Gonzalez"
+              alt="Background Alejandra Gonzalez"
               width={600} // Ajusta el tamaño según lo necesites
               height={600}
               className="rounded-lg object-cover shadow-lg"

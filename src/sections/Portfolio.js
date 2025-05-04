@@ -41,7 +41,8 @@ export default function Portfolio({ shoots }) {
                         .height(300)
                         .fit("crop")
                         .url()}
-                      alt={shoot.title}
+                        alt={`Sesión fotográfica "${shoot.title}" destacando estilo y composición visual`}
+loading="lazy"
                       width={500}
                       height={300}
                       className="block md:hidden w-full h-full object-cover"
@@ -50,7 +51,8 @@ export default function Portfolio({ shoots }) {
                     {/* Imagen para desktop: completa */}
                     <Image
                       src={urlFor(shoot.cover).width(500).url()}
-                      alt={shoot.title}
+                      alt={`Sesión fotográfica "${shoot.title}" destacando estilo y composición visual`}
+loading="lazy"
                       width={500}
                       height={500}
                       className="hidden md:block w-full h-full object-cover"

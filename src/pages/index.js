@@ -4,9 +4,19 @@ import Portfolio from "../sections/Portfolio";
 import BioSection from "../sections/BioSection";
 import ContactForm from "../sections/ContactForm";
 import { sanityClient } from "../sanity/client";
+import Head from 'next/head';
 
 export default function Home({ shoots }) {
   return (
+    <> <Head>
+    <title>Portafolio Alejandra González</title>
+    <meta
+      name="description"
+      content="Descubre el portafolio profesional de modelaje de Alejandra González. Sesiones editoriales, estilo, bio y contacto."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </Head>
+
     <div className="relative w-full">
       <Navbar />
       <Hero />
@@ -15,6 +25,7 @@ export default function Home({ shoots }) {
       <ContactForm />
     
     </div>
+    </>
   );
 }
 

@@ -17,16 +17,18 @@ export default function Hero() {
         {/* Desktop */}
         <Image
           src="/images/Fondo.jpg"
-          alt="Alejandra Gonzalez"
+          alt="Background Alejandra Gonzalez"
           fill
+          loading="lazy"
           style={{ objectFit: "cover" }}
           className="hidden md:block"
         />
         {/* Mobile */}
         <Image
           src="/images/home.jpg"
-          alt="Alejandra Gonzalez"
+          alt="Background Alejandra Gonzalez"
           fill
+          loading="lazy"
           style={{ objectFit: "cover" }}
           className="block md:hidden"
         />
