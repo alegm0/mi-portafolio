@@ -131,7 +131,52 @@ export default function ContactForm() {
         />
       </a>
     </div>
+    <style jsx>{`
+  @media (max-width: 768px) {
+    #contacto {
+      padding: 1rem !important; /* Ajusta el padding general */
+      min-height: 100vh !important; /* Ocupa toda la altura de la pantalla */
+    }
+
+    #contacto h2 {
+      font-size: 1.25rem !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    #contacto p {
+      font-size: 0.9rem !important;
+      margin-bottom: 1rem !important;
+    }
+
+    #contacto form {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 auto !important;
+    }
+
+    #contacto input,
+    #contacto textarea {
+      padding: 0.75rem !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    #contacto button {
+      width: 100% !important; /* Ocupa todo el ancho */
+      margin-top: 0.5rem !important;
+    }
+
+    #contacto .flex.space-x-6.mt-6 {
+      margin-top: 0.75rem !important;
+      justify-content: center !important; /* Centra los iconos */
+      gap: 1rem !important; /* Espacio entre iconos */
+    }
+  }
+`}</style>
+
   </div>
+
+
+
 
   );
 }
