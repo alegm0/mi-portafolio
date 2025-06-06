@@ -75,7 +75,7 @@ export default function Hero() {
   @media (max-width: 768px) {
     .py-20 {
       padding-top: 2rem !important; /* o un valor que te guste, como 2rem */
-      padding-bottom: 2rem !important;
+      padding-bottom: 6rem !important;
     }
   }
 `}</style>

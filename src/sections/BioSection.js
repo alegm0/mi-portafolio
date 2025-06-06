@@ -21,7 +21,7 @@ export default function BioSection() {
             myself and turn the ordinary into art.
           </p>
 
-          <p className="text-lg font-semibold text-center md:text-left mt-6">
+          <p className="text-lg font-semibold text-center md:text-left mt-6 text-black">
             Welcome to my portfolio.
           </p>
 

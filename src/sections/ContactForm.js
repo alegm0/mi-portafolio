@@ -28,7 +28,7 @@ export default function ContactForm() {
     id="contacto"
     className="bg-white w-full min-h-screen flex flex-col items-center justify-center p-12"
   >
-    <h2 className="text-3xl font-bold text-center mb-4">
+    <h2 className="text-3xl font-bold text-center mb-4 text-black">
       Let's Work Together
     </h2>
     <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-8">
