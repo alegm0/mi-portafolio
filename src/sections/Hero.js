@@ -17,6 +17,7 @@ export default function Hero() {
         <Image
           src="/images/o2.jpg"
           alt="Background Alejandra Gonzalez"
+          quality={100}
           fill
           loading="lazy"
           style={{ objectFit: "cover", objectPosition: "center 60%" }}
@@ -27,6 +28,7 @@ export default function Hero() {
           src="/images/o2.jpg"
           alt="Background Alejandra Gonzalez"
           fill
+           quality={100}
           loading="lazy"
           style={{ objectFit: "cover", objectPosition: "89% 10%" }}
           className="block md:hidden"

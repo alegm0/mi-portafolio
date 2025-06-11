@@ -95,7 +95,7 @@ export default function BioSection() {
 
           .bg-white {
             padding: 1rem !important;
-            padding-top: 3rem !important;
+            padding-top: 0rem !important;
           }
 
           /* Ajustes para el título "Bio" */
@@ -113,8 +113,9 @@ export default function BioSection() {
 
           
           .responsive-margin-adjust {
-            margin-top: 0.25rem !important; /* o mt-1 en Tailwind */
-          }
+            margin-top: 1rem !important; /* o mt-1 en Tailwind */
+          margin-bottom: 1rem !important; 
+            }
 
           #bio .relative {
             height: 40vh !important; /* Ajusta la altura de la imagen en responsive */
