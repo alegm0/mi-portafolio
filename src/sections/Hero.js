@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="absolute inset-0 -z-10">
         {/* Desktop */}
         <Image
-          src="/images/o2.jpg"
+          src="/images/d1.jpg"
           alt="Background Alejandra Gonzalez"
           quality={100}
           fill
@@ -25,10 +25,10 @@ export default function Hero() {
         />
         {/* Mobile */}
         <Image
-          src="/images/o2.jpg"
+          src="/images/d3.jpg"
           alt="Background Alejandra Gonzalez"
           fill
-           quality={100}
+          quality={100}
           loading="lazy"
           style={{ objectFit: "cover", objectPosition: "89% 10%" }}
           className="block md:hidden"
@@ -37,11 +37,13 @@ export default function Hero() {
       </div>
 
       {/* Texto principal */}
-      <div className="relative z-10 flex flex-col w-full items-center justify-between h-full py-20">
+   <div className="flex flex-col w-full items-center justify-between h-[79vh] md:justify-center md:h-full custom-justify">
+
+
         {/* Información principal arriba */}
-        <div className="text-center space-y-2 ">
+        <div className="text-center space-y-2">
           <motion.h1
-            className="text-5xl text-[#ffd700] md:text-7xl font-bold  drop-shadow-lg tracking-wide"
+            className="text-5xl text-[#ffd700] md:text-7xl font-bold drop-shadow-lg tracking-wide"
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
@@ -49,13 +51,11 @@ export default function Hero() {
           >
             Alejandra Gonzalez
           </motion.h1>
-          <p className="text-xl md:text-2xl drop-shadow-lg">
-            Sydney, Australia
-          </p>
+          <p className="text-xl md:text-2xl drop-shadow-lg">Sydney, Australia</p>
         </div>
 
         {/* Botones centrados pero más abajo */}
-        <nav className="relative z-10 mt-1 flex space-x-4 sm:space-x-6 text-sm sm:text-base md:text-lg font-medium tracking-wide">
+        <nav className="mt-6 flex space-x-4 sm:space-x-6 text-sm sm:text-base md:text-lg font-medium tracking-wide">
           <button
             onClick={() => scrollToSection("portafolio")}
             className="button-52"
@@ -66,18 +66,16 @@ export default function Hero() {
             Bio
           </button>
           <button
-            onClick={() => scrollToSection("contacto")}
-            className="button-52"
+            onClick={() => scrollToSection("contacto")}className="button-52"
           >
             Contact
           </button>
         </nav>
       </div>
       <style jsx>{`
-  @media (max-width: 768px) {
-    .py-20 {
-      padding-top: 2rem !important; /* o un valor que te guste, como 2rem */
-      padding-bottom: 6rem !important;
+  @media (min-width: 768px) {
+    .custom-justify {
+      justify-content: center !important;
     }
   }
 `}</style>

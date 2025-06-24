@@ -41,8 +41,8 @@ export default function Portfolio({ shoots }) {
                         .height(300)
                         .fit("crop")
                         .url()}
-                        alt={`Sesión fotográfica "${shoot.title}" destacando estilo y composición visual`}
-loading="lazy"
+                      alt={`Sesión fotográfica "${shoot.title}" destacando estilo y composición visual`}
+                      loading="lazy"
                       width={500}
                       height={300}
                       className="block md:hidden w-full h-full object-cover"
@@ -52,7 +52,7 @@ loading="lazy"
                     <Image
                       src={urlFor(shoot.cover).width(500).url()}
                       alt={`Sesión fotográfica "${shoot.title}" destacando estilo y composición visual`}
-loading="lazy"
+                      loading="lazy"
                       width={500}
                       height={500}
                       className="hidden md:block w-full h-full object-cover"

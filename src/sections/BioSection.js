@@ -28,7 +28,7 @@ export default function BioSection() {
           {/* Redes sociales */}
           <div className="flex justify-center md:justify-start mt-4 space-x-4 responsive-margin-adjust">
             <a
-              href="https://www.instagram.com/im_ale24/"
+              href="https://www.instagram.com/ale.gonzalezz.m/?hl=es"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -39,7 +39,7 @@ export default function BioSection() {
               />
             </a>
             <a
-              href="https://www.tiktok.com/@ale.gm21"
+              href="https://www.tiktok.com/@ale.gonzalezz.m"
               target="_blank"
               rel="noopener noreferrer"
             >

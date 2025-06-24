@@ -98,7 +98,7 @@ export default function ContactForm() {
     {/* Redes sociales */}
     <div className="flex space-x-6 mt-6">
       <a
-        href="https://www.instagram.com/im_ale24/?hl=es"
+        href="https://www.instagram.com/ale.gonzalezz.m/?hl=es"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -109,7 +109,7 @@ export default function ContactForm() {
         />
       </a>
       <a
-        href="https://www.tiktok.com/@ale.gm21"
+        href="https://www.tiktok.com/@ale.gonzalezz.m"
         target="_blank"
         rel="noopener noreferrer"
       >
